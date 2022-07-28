@@ -1,0 +1,13 @@
+name = "DemoPackageSPD"
+uuid = "e03a01a1-40ac-4347-9acb-d01d130a8533"
+authors = ["Simon de Szoeke <simon.deszoeke@oregonstate.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
